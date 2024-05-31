@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    font-family: "Noto sans";
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0 rgba(140, 139, 139, 0.5);
+}
+
+.nav-logo img {
+    width: 100px;
+
+}
+
+.nav-links ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+
+}
+
+.nav-links li:hover {
+    background-color: rgba(235, 231, 231, 0.5);
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+.nav-right button {
+    width: 100px;
+    height: 40px;
+    border-radius: 1.5rem;
+    border: none;
+    color: white;
+    background-color: #00baf2;
+    font-size: 1rem;
+
+}
+.nav-right button:hover {
+    background-color: rgb(11, 8, 107);
+    transition: background-color 0.7s ease;
+}
+
+.nav-right i {
+    padding: 3px;
+}
+
+/*center*/
+
+.mid-container {
+    text-align: center;
+    padding: 3px;
+    background-color: #dee6e887;
+}
+
+.mid-container span {
+    font-weight: 500;
+}
+  
+
+/*end*/
+
+
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.main-right img {
+    width: 450px;
+    position: absolute;
+    right: 8px;
+}
+
+.main-left img {
+    width: 75px;
+    height: 70px;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(105, 106, 107, 0.1);
+}
+
+.main-left h1 {
+    line-height: 50px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Inter, sans-serif;
+    letter-spacing: -1px;
+}
+
+.main-left p {
+    line-height: 25px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.main-left button {
+    border: 1px solid black;
+    width: 220px;
+    border-radius: 25px;
+    padding: 4px;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+}
+
+.main-left i {
+    padding-left: 10px;
+}
+
+.main-left button:hover {
+    background-color: white;
+    color: black;
+    transition: background-color 0.4s ease;
+}
+
